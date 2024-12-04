@@ -1,0 +1,121 @@
+
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.page-body{
+    background: linear-gradient(to right, rgb(255, 243, 222), rgb(150, 133, 105));
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+}
+.profile-menu{
+    padding: 10px;
+}
+.profile-menu img{
+    width: 50px;
+    height: 50%;
+    border-radius: 50%;
+}
+.d-menu{
+    background: linear-gradient(to right, #f5b25a, #f2ad53);
+    padding: 0px;
+    border-radius: 6px;
+    margin: 20px 20px;
+}
+.d-menu-b{
+    padding: 0px;
+    border-radius: 6px;
+    margin: 20px 20px;
+}
+
+.menu-con{
+    margin: 0px 0px;
+    display: flex;
+}
+.menu-card{
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 6px;
+    height: 150px;
+    transition: all 1.5s ease;
+}
+.menu-card:hover{
+    transform: scale(0.9);
+}
+.menu-card a{
+    color: #ffff;
+    text-decoration: none;
+}
+.menu-card a i{
+    font-size: 4rem;
+    opacity: 0.3;
+    float: right;
+}
+.menu-card a p{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.menu-card a h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#bg1{
+    background: linear-gradient(to right, #ff0000, rgb(93, 0, 0));
+}
+#bg2{
+    background: linear-gradient(to right, rgb(35, 33, 33), #000000);
+}
+#bg3{
+    background: linear-gradient(to right, #008000, rgb(0, 43, 0));
+}
+#bg4{
+    background: linear-gradient(to right, blue, rgb(0, 0, 54));
+}
+
+.menu-card-more{
+    width: 100%;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    transition: all 1.5s ease;
+}
+/* .menu-card-more:hover{
+    transform: scale(0.9);
+} */
+.menu-card-more a{
+    color: #ffff;
+    text-decoration: none;
+}
+.menu-card-more a i{
+    font-size: 4rem;
+    opacity: 0.3;
+    float: right;
+    margin-right: 20px;
+}.menu-card-more a img{
+    font-size: 4rem;
+    float: right;
+    margin-right: 20px;
+    width: 50px;
+}
+.menu-card-more a p{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.menu-card-more a h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+
+
+
