@@ -286,8 +286,8 @@ p{
 
 .login-card{
     border: 1px solid #f5b25a;
-    padding: 10px;
-    margin: 20px;
+/*     padding: 10px;
+    margin: 20px; */
     display: flex;
     justify-self: center;
     width: 100%;
